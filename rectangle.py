@@ -8,6 +8,10 @@ def area(a, b):
 
         Возвращаемое значение:
             rectangle_area (float): площадь прямоугольника со сторонами a и b
+
+    Пример вызова:
+    area(1.0, 1.0) = 1.0
+    area(4.5, 7.5) = 33.75
     '''
     return a * b 
 
@@ -21,5 +25,8 @@ def perimeter(a, b):
 
         Возвращаемое значение:
             rectangle_perimeter (float): периметр прямоугольника со сторонами a и b
+    Пример вызова:
+    perimeter(1.0, 1.0) = 4.0
+    perimeter(4.5, 7.5) = 24.0
     '''
     return 2 * a + 2 * b 
