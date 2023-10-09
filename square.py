@@ -8,6 +8,10 @@ def area(a):
 
         Возвращаемое значение:
             square_area (float): площадь квадрата со стороной a
+            
+    Примеры вызова:
+    area(1.0) = 1.0
+    area(4.5) = 20.25
     '''
     return a * a
 
@@ -21,5 +25,9 @@ def perimeter(a):
 
         Возвращаемое значение:
             square_perimeter (float): периметр квадрата со стороной a
+
+    Примеры вызова:
+    perimeter(1.0) = 4.0
+    perimeter(4.5) = 18.0
     '''
     return 4 * a
