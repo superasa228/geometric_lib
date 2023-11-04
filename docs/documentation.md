@@ -8,6 +8,7 @@ geometric_lib - библиотека функций, предназначенн�
 - square.py
 - triangle.py
 
+Также была проведено функциональное тестирование для всех файлов, результаты тестирования находятся в папке tests.
   
 ## Описание каждой функции с примерами вызова
 ### circle.py
@@ -226,3 +227,29 @@ superasa228 committed on Oct 9, 2023
 Update triangle.py 
 
 superasa228 committed on Oct 9, 2023
+
+------
+
+[697409495eb2c39c10ce1382ce277f9effb62ad6](https://github.com/superasa228/geometric_lib/commit/697409495eb2c39c10ce1382ce277f9effb62ad6)
+
+Update documentation.md 
+
+superasa228 committed on Oct 9, 2023
+
+------
+
+[6fa1bcf3b60c51e43c7470fa627d358338c70ef4](https://github.com/superasa228/geometric_lib/commit/6fa1bcf3b60c51e43c7470fa627d358338c70ef4)
+
+Добавил папку с тестированием: в папке 4 папки, в каждой папке - файл… 
+
+superasa228 committed on Nov 5, 2023
+
+------
+
+[c246553babf1f634cf18bc4ad399da889c15a366](https://github.com/superasa228/geometric_lib/commit/c246553babf1f634cf18bc4ad399da889c15a366)
+
+Merge branch 'testing' of https://github.com/superasa228/geometric_lib … 
+
+superasa228 committed on Nov 5, 2023
+
+-------
