@@ -8,7 +8,8 @@ geometric_lib - библиотека функций, предназначенн�
 - square.py
 - triangle.py
 
-  
+Также было проведено функциональное тестирование кадого файла. Результаты тестирования хранятся в папке tests
+
 ## Описание каждой функции с примерами вызова
 ### circle.py
 area(r) - принимает вещественное число r, возвращает площадь круга с радиусом r
@@ -226,3 +227,45 @@ superasa228 committed on Oct 9, 2023
 Update triangle.py 
 
 superasa228 committed on Oct 9, 2023
+
+-------
+
+[45ceeaf1b860825dad9b92abb74569e66b971b90](https://github.com/superasa228/geometric_lib/commit/45ceeaf1b860825dad9b92abb74569e66b971b90)
+
+Create test_circle.py
+
+superasa228 committed on Nov 10, 2023
+
+-------
+
+[3c22ebae3d5bc0a389695c824f17871df0dac66e](https://github.com/superasa228/geometric_lib/commit/3c22ebae3d5bc0a389695c824f17871df0dac66e)
+
+Create test_rectangle.py
+
+superasa228 committed on Nov 10, 2023
+
+-------
+
+[db5e2d2806951608dca1e14bb1f45150a0351c72](https://github.com/superasa228/geometric_lib/commit/db5e2d2806951608dca1e14bb1f45150a0351c72)
+
+Create test_square.py
+
+superasa228 committed on Nov 10, 2023
+
+------
+
+[e81a121fc2086ac1e762d1ba853b994c668343ce](https://github.com/superasa228/geometric_lib/commit/e81a121fc2086ac1e762d1ba853b994c668343ce)
+
+Create test_triangle.py
+
+superasa228 committed on Nov 10, 2023
+
+-----
+
+[33daee2069f275d920d580b104d23168eaf82d48](https://github.com/superasa228/geometric_lib/commit/33daee2069f275d920d580b104d23168eaf82d48)
+
+add testing report files
+
+superasa228 committed on Nov 10, 2023
+
+------
