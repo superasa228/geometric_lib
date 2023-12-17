@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: 
-          python.exe -m unittest rectangle.py
+          python.exe -m unittest test_rectangle.py
           
   windows_tests:
     runs-on: windows-latest
@@ -43,4 +43,4 @@ jobs:
 
       - name: Run tests
         run: |
-          python.exe -m unittest rectangle.py
+          python.exe -m unittest test_rectangle.py
