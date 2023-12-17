@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: 
-          python.exe -m unittest test_rectangle.py
+          python -m unittest test_rectangle.py
           
   windows_tests:
     runs-on: windows-latest
