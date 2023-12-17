@@ -26,14 +26,17 @@ jobs:
           python -m unittest test_rectangle.py
         
       - name: Run test_circle
+        if: always()
         run: 
           python -m unittest test_circle.py
 
       - name: Run test_triangle
+        if: always()
         run: 
           python -m unittest test_triangle.py
 
       - name: Run test_square
+        if: always()
         run: 
           python -m unittest test_square.py
         
@@ -60,13 +63,16 @@ jobs:
           python.exe -m unittest test_rectangle.py
         
       - name: Run test_circle
+        if: always()
         run: 
           python.exe -m unittest test_circle.py
 
       - name: Run test_triangle
+        if: always()
         run: 
           python.exe -m unittest test_triangle.py
 
       - name: Run test_square
+        if: always()
         run: 
           python.exe -m unittest test_square.py
