@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: 
-          pytest test_triangle.py >> tests/ub_test_triangle_log.txt
+          python.exe -m unittest rectangle.py
           
   windows_tests:
     runs-on: windows-latest
@@ -43,4 +43,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest test_triangle.py >> tests/win_test_triangle_log.txt
+          python.exe -m unittest rectangle.py
