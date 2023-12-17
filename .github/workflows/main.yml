@@ -21,9 +21,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tests
+      - name: Run test_rectangle
         run: 
           python -m unittest test_rectangle.py
+        
+      - name: Run test_circle
+        run: 
+          python -m unittest test_circle.py
+
+      - name: Run test_triangle
+        run: 
+          python -m unittest test_triangle.py
+
+      - name: Run test_square
+        run: 
+          python -m unittest test_square.py
+        
+    
           
   windows_tests:
     runs-on: windows-latest
@@ -38,9 +52,21 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          python.exe -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tests
-        run: |
+      - name: Run test_rectangle
+        run: 
           python.exe -m unittest test_rectangle.py
+        
+      - name: Run test_circle
+        run: 
+          python.exe -m unittest test_circle.py
+
+      - name: Run test_triangle
+        run: 
+          python.exe -m unittest test_triangle.py
+
+      - name: Run test_square
+        run: 
+          python.exe -m unittest test_square.py
