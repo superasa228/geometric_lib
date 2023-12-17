@@ -1,0 +1,54 @@
+name: "Auto-Tests CI"
+
+on:
+  push:
+      branches: [testing2.0]
+
+jobs:
+  ubuntu_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-puthon@v2
+        with:
+          puthon-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          mkdir -p tests
+          pytest test_triangle.py > tests/ub_test_triangle_log.txtЫ
+          pytest test_circle.py > tests/ub_test_circle_log.txt
+          pytest test_rectangle.py > tests/ub_test_rectangle_log.txt
+          pytest test_square.py > tests/ub_test_square_log.txt
+          
+  windows_tests:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-puthon@v2
+        with:
+          puthon-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          mkdir -p tests
+          pytest test_triangle.py > tests/win_test_triangle_log.txt
+          pytest test_circle.py > tests/win_test_circle_log.txt
+          pytest test_rectangle.py > tests/win_test_rectangle_log.txt
+          pytest test_square.py > tests/win_tets_square_log.txt
